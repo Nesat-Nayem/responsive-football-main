@@ -151,6 +151,20 @@ color: #18191F;
     font-size: 30px;
     text-align: center;
 }
+/* honore area */
+
+
+.Honours{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+
+
+
+
+
 
 /* footer area */
 
@@ -184,7 +198,7 @@ justify-content: center;
 /* responsive mobile device */
     @media only screen and (max-width:688px){
         
-        .header,.players,.boxx-container{
+        .header,.players,.boxx-container,.Honours{
             grid-template-columns: repeat(1, 1fr);
         }
         .Match_Highlights{
@@ -193,4 +207,3 @@ justify-content: center;
         
        
     }
-
