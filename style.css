@@ -22,13 +22,13 @@ body{
 .header-title{
    
     text-align: left;
-    margin-left: 50px;
+    margin-left: 40px;
    
 }
 .header-title h1{
     color: white;
-    font-size: 64px;
-    width: 90%;
+    font-size: 58px;
+    width: 79%;
     font-weight: 700;
     
 }
