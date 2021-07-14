@@ -34,6 +34,9 @@ body{
     font-weight: 700;
     
 }
+.header-title h1:hover{
+    color: blueviolet;
+}
 .btn{
     color: white;
     text-decoration: none;
