@@ -1,12 +1,14 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* grid header area */
+
+/*--------------------
+        header area 
+---------------*/
 .main_header{
     margin-bottom:70px;
 }
@@ -46,7 +48,9 @@ body{
     margin-left: 5px;
 }
 
-/* player area */
+/* ------------------
+       player area 
+---------------------*/
 .player_area{
     margin-bottom: 120px;
 }
@@ -86,7 +90,9 @@ color: #18191F;
     justify-content: center;
 }
 
-/* Matc Highlights Area */
+/* -------------------
+Matc Highlights Area 
+----------------------------*/
 .Match_Highlights{
     display: flex;
     justify-content: center;
@@ -117,7 +123,10 @@ color: #18191F;
     height: 427px;
 }
 
-/* product galare */
+/* --------------
+product galare
+------------------- */
+
 .gallery_section{
     margin-bottom: 150px;
 }
@@ -132,7 +141,6 @@ color: #18191F;
     grid-column-gap: 80px;
     grid-row-gap: 30px;
 }
-
 
 .heading_first{
     
@@ -177,11 +185,9 @@ text-align: center;
 text-align: center;
 }
 
-
-
-
-
-/* footer area */
+/* ------------
+footer area 
+----------------*/
 
 .footer_img img{
     width: 483px;
@@ -207,10 +213,10 @@ justify-content: center;
     justify-content: center;
 }
 
+/* ----------------
+responsive mobile device
+--------------------------- */
 
-
-
-/* responsive mobile device */
     @media only screen and (max-width:688px){
         
         .header,.players,.boxx-container,.Honours{
@@ -220,5 +226,4 @@ justify-content: center;
             display: none;
         }
         
-       
     }
