@@ -90,6 +90,7 @@ color: #18191F;
 .Match_Highlights{
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 .Highlights{
     display: grid;
@@ -116,12 +117,31 @@ color: #18191F;
     height: 427px;
 }
 
+/* footer area */
 
+.footer_img img{
+    width: 483px;
+    height: 110px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.social_icon{
+display: flex;
+justify-content: center;
 
+}
+.social_icon img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
 
-
-
-
+.copywrite p{
+    display: flex;
+    justify-content: center;
+}
 
 
 
