@@ -29,13 +29,13 @@ body{
 }
 .header-title h1{
     color: white;
-    font-size: 58px;
-    width: 79%;
+    font-size: 60px;
+    width: 75%;
     font-weight: 700;
     
 }
 .header-title h1:hover{
-    color: blueviolet;
+    color:hotpink;
 }
 .btn{
     color: white;
@@ -45,6 +45,9 @@ body{
     padding: 10px 20px;
     background-color: #E02C6D;
 
+}
+.btn:hover{
+    background-color:deepskyblue;
 }
 .fa-arrow-right{
     font-size: 16px;
