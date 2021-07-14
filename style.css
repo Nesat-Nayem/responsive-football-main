@@ -118,7 +118,9 @@ color: #18191F;
 }
 
 /* product galare */
-
+.gallery_section{
+    margin-bottom: 150px;
+}
 .container_full{
     display: flex;
     justify-content: center;
@@ -152,15 +154,28 @@ color: #18191F;
     text-align: center;
 }
 /* honore area */
-
+.honour_section{
+    margin-bottom: 150px;
+}
+.honours_title{
+    color: darkviolet;
+    font-size: 50px;
+}
 
 .Honours{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
+.honour img{
+    width: 100%;
+}
 
-
-
+.honour h1{
+text-align: center;
+}
+.honour p{
+text-align: center;
+}
 
 
 
