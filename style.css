@@ -32,7 +32,7 @@ body{
     font-weight: 700;
     
 }
-.header-title a{
+.btn{
     color: white;
     text-decoration: none;
     font-weight: 400;
@@ -47,6 +47,9 @@ body{
 }
 
 /* player area */
+.player_area{
+    margin-bottom: 120px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,7 +86,35 @@ color: #18191F;
     justify-content: center;
 }
 
+/* Matc Highlights Area */
+.Match_Highlights{
+    display: flex;
+    justify-content: center;
+}
+.Highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.match_detail{
+    width: 469px;
+    height: 309px;
+    margin-left: 30px;
+}
 
+.match_detail h1{
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.match_detail p{
+    width: 83%;
+    margin-bottom: 30px;
+}
+
+.match_image img{
+    width: 567px;
+    height: 427px;
+}
 
 
 
@@ -101,6 +132,9 @@ color: #18191F;
         .header,.players{
             grid-template-columns: repeat(1, 1fr);
         }
-        
+        .Match_Highlights{
+            display: none;
+        }
+       
     }
 
